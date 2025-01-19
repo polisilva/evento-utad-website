@@ -1,0 +1,24 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.arredondado-contacto{
+    padding: 2rem;
+    background-color: rgb(61, 63, 153);
+    border-radius: 20px;
+    position: absolute;
+    top: 30%;
+}
+body {
+    color: rgb(197, 84, 172);
+    font-family: "Anton", serif;
+    font-weight: 400;
+    padding: 3rem;
+   
+     
+}
+
+    
+    
+   

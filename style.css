@@ -1,0 +1,143 @@
+@@import url('https://fonts.googleapis.com/css2?family=Anton&family=Barlow:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');import url('https://fonts.googleapis.com/css2?family=Anton&family=Barlow:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: rgb(37, 37, 87);
+    color: #CF52B0;
+    font-family: "Anton", serif;
+    font-weight: 400;
+}
+
+header {
+    padding: 2rem;
+    text-align: center;
+    background-color:rgb(70, 70, 169);
+}
+
+main{
+    padding: 2rem;
+    display: flex;
+    flex-direction: column;
+    gap: 1.5 rem;
+}
+
+section{
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+
+.map-section {
+    display: flex;
+    flex: auto;
+    align-items: center;
+}
+
+.social-section {
+    flex-direction: row;
+    justify-content: center;
+    padding: 2rem;
+}
+
+.efecto-hover:hover {
+    color:aqua;
+    transition: 0.5s;
+}
+
+p{
+    color: white;
+}
+
+h1{
+    color: #CF52B0;
+    font-size: 60px;
+}
+
+h2{
+    color: #E675CA;
+    font-size: 30px;
+}
+
+h3{
+    color:white;
+}
+
+h6{
+    color: black;
+}
+
+table{
+    color: white;
+}
+
+form{
+    padding: 1rem;
+    text-align: center;
+    background-color: rgb(70, 70, 169);
+    flex-direction: column;
+}
+
+table{
+    padding: 1rem;
+    text-align: center;
+    background-color:rgb(70, 70, 169);
+}
+
+th{
+    background-color: rgb(108, 108, 207) ;
+    padding: 1rem;
+}
+
+td{
+   padding: 0.5rem;
+   text-align: center; 
+}
+input[type="checkbox"] {
+    accent-color: rgb(215, 63, 190);
+}
+input[type="text"],[type="email"]{
+    text-align: center;
+    width: 95%;
+    padding: 0.6rem;
+    border: 2px solid rgb(215, 63, 190) ;
+    outline: none;
+    border-radius: 25px;
+}
+
+input::placeholder{
+    color: rgb(70, 70, 169);
+}
+select {
+    cursor: pointer;
+    background-color: #E675CA;
+    color: darkblue;
+    border-radius: 5px;
+    border: none;
+    outline: none;
+}
+
+img{
+    width: 10rem;
+    border-radius: 10px;
+}
+legend{
+    color: #ef6fcf;
+    font-size: 30px;
+
+}
+footer{
+    background-color: rgb(125, 125, 219);
+    padding: 2rem;
+    text-align: center;
+}
+.paragrafo-footer{
+    color: white;
+}
+footer a {
+    text-decoration: none;
+}
